@@ -10,6 +10,19 @@
      struct Node *next;
   }
 */
+
+// Short solution 1
+
+void ReversePrint(Node *head)
+{
+    if (!head) return;
+    ReversePrint(head->next);
+    printf("%i\n", head->data);   
+}
+
+
+// Long solution 2
+
 void ReversePrint(Node *head)
 {
     struct Node* buffer = head;
