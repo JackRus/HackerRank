@@ -4,7 +4,7 @@
 *   Very useful template for reading the data for cases from one file + reading correct answers (for comparison)
 *   & writing the results to a different file.
 *
-*   Works with any amount of cases. File names are hard coded, but you can easealy change to 
+*   Works with any amount of cases. File names are hard coded, but you can easealy change to a comand line promrpt.
 *
 *   Helps to see mistakes and correct them.
 ***************************************************************************************************************/
